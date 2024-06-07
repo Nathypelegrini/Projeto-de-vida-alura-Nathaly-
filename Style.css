@@ -1,0 +1,99 @@
+@import 
+
+url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap'); 
+
+:root { 
+
+--cor-de-fundo:#6A9A; 
+
+--branco:#ffffff;
+
+--lilas:#EE82EE; 
+
+--Azul:#6A5ACD; 
+
+--Vermelho:#ff0000;
+
+--Azulescuro:#00009C;
+
+--Azulmedio:#447791;
+
+--preto:#1E1E1E; 
+
+--botao-inativo: rgba(6, 2, 234, 0.5); 
+
+--texto-fundo: rgba(58, 55, 94, 0.3); } 
+
+body { 
+
+background-color: var(--cor-de-fundo); color: var(--branco); font-family: 'Chakra Petch', sans-
+
+serif;
+
+ 
+
+.conteudo-principal {
+
+ display: flex;
+
+ flex-direction: column;
+
+ justify-content: center;
+
+ align-items: center;
+
+ max-width: 1200px;
+
+ width: 100%;
+
+ margin: 0 auto;
+
+}
+
+ .titulo-principal {
+
+ text-align: center;
+
+ width: 100%;
+
+ font-size: 32px;
+
+}
+
+.botao {
+
+ font-family: "Crakra Petch", sans-serif;
+
+ background-color: var(--botao-inativo);
+
+ color: var(--preto);
+
+ display: flex;
+
+ justify-content: center;
+
+ padding: 1em;
+
+ font-size: 18px;
+
+ align-items: center;
+
+ width: 100%;
+
+border-bottom: 4px solid var(--Azulescuro); 
+
+ border-left: 2px solid var(--Azulescuro); 
+
+ border-right: 2px solid var(--Azulescuro); 
+
+ border-top: none;
+
+ }
+
+ 
+
+.botoes {
+
+ display: block;
+
+}
